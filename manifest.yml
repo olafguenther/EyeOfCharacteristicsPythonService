@@ -1,0 +1,4 @@
+applications:
+- name: eoc-webservice
+  random-route: true
+  memory: 256M

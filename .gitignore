@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Logs
+*.log
+
+# Upload/Output
+*.jpg
+*.mov
+*.avi
+*.mp4

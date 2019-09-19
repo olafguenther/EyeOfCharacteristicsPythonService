@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EyeOfCharacteristics</title>
+    <link rel="shortcut icon" type="image/x-icon" src="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a class="active">Eye<span class="titleNavbar">Of Characteristics</span></a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container">
+            <h1>Welcome to EyeOfCharacteristics</h1>
+            <p>Simple tips:</p>
+            <ul>
+                <li>
+                    <p>Use this path for a POST-Request (image) to EOC <span>/analyze-image</span></p>
+                </li>
+                <li>
+                        <p><span>curl -i -H "Content-Type: application/json" -X POST -d '{"image":{YOUR-FILE}' https://{THIS-HOST}:443/analyze-image</span></p>
+                </li>
+                <li>
+                    <p>It has to be a .jpg file</p>
+                </li>
+                <li>
+                    <p>Use this path for a POST-Request (video) to EOC <span>/analyze-video</span></p>
+                </li>
+                <li>
+                        <p><span>curl -i -H "Content-Type: application/json" -X POST -d '{"image":{YOUR-FILE}' https://{THIS-HOST}:443/analyze-video</span></p>
+                </li>
+                <li>
+                    <p>It has to be a .mov file</p>
+                </li>
+                <li>
+                    <p>It is easier to use the EOC Vue.js Frontend, than the cURL commands</p>
+                </li>
+                <li>
+                    <p>For more information: <a href="https://github.com/larsdittert/EyeOfCharacteristicsPythonService">README.md</a></p>
+                </li>
+                <li>
+                    <p>Vue.js Frontend: <a href="http://github.com/larsdittert/EyeOfCharacteristics">EyeOfCharacteristics</a></p>
+                </li>
+            </ul>
+        </section>
+
+</body>

@@ -1,0 +1,7 @@
+.gitignore
+README.md
+*.jpg
+*.avi
+*.mp4
+*.mov
+eoc.log

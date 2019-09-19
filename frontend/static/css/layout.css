@@ -1,0 +1,73 @@
+body {
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0px;
+    background-color: #f1f1f1;
+    /*overflow-x: hidden;*/
+}
+
+nav {
+	min-width: calc(8em + 800px);
+    margin: 0;
+    font-size: .875rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #171717;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #171717;
+}
+
+main {
+    width: 100%;
+    padding-top: 4em;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    min-width: 800px;
+    margin: auto;
+    margin-bottom: 5%;
+    border: 0px solid black;
+    padding: 4em;
+}
+
+span {
+    padding: 0.2em 0.4em;
+    background-color: rgba(27,31,35,0.05);
+    margin: 0;
+    border-radius: 3px;
+}
+
+.titleNavbar {
+    font-weight: bold;
+}

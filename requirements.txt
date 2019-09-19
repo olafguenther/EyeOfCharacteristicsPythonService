@@ -1,0 +1,8 @@
+tensorflow==1.14.0
+opencv_python==4.1.0.25
+dlib==19.17.0
+simplejson==3.16.0
+numpy==1.16.4
+pandas==0.23.0
+Flask==0.12.2
+Keras==2.2.5

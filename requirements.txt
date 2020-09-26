@@ -1,4 +1,4 @@
-tensorflow==1.14.0
+tensorflow==1.15.4
 opencv_python==4.1.0.25
 dlib==19.17.0
 simplejson==3.16.0
